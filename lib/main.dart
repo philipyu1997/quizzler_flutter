@@ -29,7 +29,6 @@ class QuizPage extends StatefulWidget {
 
 class _QuizPageState extends State<QuizPage> {
   List<Icon> scoreKeeper = [];
-  int questionNumber = 0;
 
   @override
   Widget build(BuildContext context) {
@@ -44,7 +43,7 @@ class _QuizPageState extends State<QuizPage> {
             child: Center(
               child: Text(
 //                'This is where the question text will go.',
-                quizBrain.questionBank[questionNumber].questionText,
+                quizBrain.getQuestionText(),
                 textAlign: TextAlign.center,
                 style: TextStyle(
                   fontSize: 25.0,
@@ -69,21 +68,16 @@ class _QuizPageState extends State<QuizPage> {
               ),
               onPressed: () {
                 //The user picked true.
-                bool correctAnswer =
-                    quizBrain.questionBank[questionNumber].questionAnswer;
+                bool correctAnswer = quizBrain.getCorrectAnswer();
 
                 if (correctAnswer == true) {
-                  print('$questionNumber. User got the question right!');
+                  print('${quizBrain.getQuestionNumber()}. Right');
                 } else {
-                  print('$questionNumber. User got the question wrong!');
+                  print('${quizBrain.getQuestionNumber()}. Wrong');
                 }
 
                 setState(() {
-                  if (questionNumber < (quizBrain.questionBank.length - 1)) {
-                    questionNumber++;
-                  } else {
-                    questionNumber = 0;
-                  }
+                  quizBrain.nextQuestion();
                 });
               },
             ),
