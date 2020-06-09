@@ -23,7 +23,9 @@ Quizzler is a trivia quiz app, inspired by the awesome “Quiz Up” game.
 
 Here's a GIF of how the app works:
 
-<img src="ADD_GIF_LINK" width=250>
+<img src="https://user-images.githubusercontent.com/35745973/84118005-3b8f2d80-a9e7-11ea-9f07-5fa3b312b86b.gif" width=250>
+
+<img src="https://user-images.githubusercontent.com/35745973/84117989-36ca7980-a9e7-11ea-9bd1-a642c34fba88.gif" width=250>
 
 ## Libraries
 
