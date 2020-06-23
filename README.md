@@ -23,12 +23,14 @@ Quizzler is a trivia quiz app, inspired by the awesome “Quiz Up” game.
 
 Here's a GIF of how the app works:
 
-<img src="https://user-images.githubusercontent.com/35745973/84118005-3b8f2d80-a9e7-11ea-9f07-5fa3b312b86b.gif" width=250>
+<img src="https://github.com/py415/app-resources/blob/master/flutter/ios/flutter-ios-quizzler.gif" width=250>
 
-<img src="https://user-images.githubusercontent.com/35745973/84117989-36ca7980-a9e7-11ea-9bd1-a642c34fba88.gif" width=250>
+<img src="https://github.com/py415/app-resources/blob/master/flutter/android/flutter-android-quizzler.gif" width=250>
 
 ## Libraries
 
+- [cupertino_icons](https://github.com/flutter/cupertino_icons) - This is an asset repo containing the default set of icon assets used by Flutter's [Cupertino widgets](https://github.com/flutter/flutter/tree/master/packages/flutter/lib/src/cupertino).
+- [pedantic](https://github.com/dart-lang/pedantic) - Most of the recommended lints directly implement the guidelines set out in [Effective Dart](https://dart.dev/guides/language/effective-dart).
 - [rflutter_alert](https://github.com/RatelHub/rflutter_alert) - A super customizable and easy-to-use alert/popup dialogs for Flutter. You may create reusable alert styles or add buttons as much as you want with ease.
 
 ## Credits
