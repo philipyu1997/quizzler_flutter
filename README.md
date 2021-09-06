@@ -23,9 +23,9 @@ Quizzler is a trivia quiz app, inspired by the awesome “Quiz Up” game.
 
 Here's a GIF of how the app works:
 
-<img src="https://github.com/py415/app-resources/blob/master/flutter/ios/flutter-ios-quizzler.gif" width=250>
+<img src="https://raw.githubusercontent.com/py415/app-resources/master/flutter/ios/flutter-ios-quizzler.gif" width="250" />
 
-<img src="https://github.com/py415/app-resources/blob/master/flutter/android/flutter-android-quizzler.gif" width=250>
+<img src="https://raw.githubusercontent.com/py415/app-resources/master/flutter/android/flutter-android-quizzler.gif" width="250" />
 
 ## Libraries
 
